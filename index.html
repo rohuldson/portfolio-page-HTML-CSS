@@ -4,7 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home - Ronald Silva</title>
+
+    <!--  External Links -->
     <link rel="stylesheet" href="styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -16,15 +17,27 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
+   
+<!-- Favicon -->
+<link rel="shortcut icon" href="img/favicon.png">
+  <title>Home - Ronald Silva</title>
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+
+<link rel="stylesheet" href="css/animate.css">
+
+  
   </head>
   <body>
-    <header>
+    <header id="header">
       <div class="container">
         <div class="header-grid">
-          <section class="grid-align-center">
+          <section class="grid-align-center wow animate__animated animate__slideInLeft">
             <h1>
-              <div>I'm a</div>
-              <span>front-end</span>developer
+              <div> I'm a</div>
+              <span>front-end </span> developer
             </h1>
 
             <p>
@@ -47,24 +60,26 @@
                 </button>
               </a>
 
-              <button class="btn-blue">
-                <i class="fa fa-search"></i>
-                <span> Projects </span>
-              </button>
-            </div>
+            <a href="#main">
+                <button class="btn-blue">
+                    <i class="fa fa-search"></i>
+                    <span> Projects </span>
+                  </button>
+                </div>
+            </a>
           </section>
 
-          <img src="img/developer.svg" alt="myocto" class="side-img" />
+          <img src="img/developer.svg" alt="myocto" class="side-img wow animate__animated animate__slideInDown"  />
         </div>
       </div>
     </header>
 
-    <main>
+    <main id="main">
       <section class="projects">
         <div class="espace"></div>
 
         <div class="container">
-          <div class="projects-title">
+          <div class="projects-title wow animate__animated animate__slideInUp">
             <h1>Web projects</h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
@@ -75,8 +90,7 @@
           </div>
 
           <div class="project-grid">
-
-            <article>
+            <article class="wow animate__animated animate__slideInUp">
               <i class="fa fa-search"></i>
               <h3>Projeto 1</h3>
               <p>
@@ -91,113 +105,178 @@
               </button>
             </article>
 
-            <article>
-                <i class="fa fa-lock"></i>
-                <h3>Projeto 2</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                  ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                  corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                  consequatur. Architecto, corporis repudiandae.
-                </p>
-  
-                <button class="btn-purple">
-                  <span>Visit</span>
-                </button>
-              </article>
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fa fa-lock"></i>
+              <h3>Projeto 2</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
 
-              <article>
-                <i class="fa fa-laptop"></i>
-                <h3>Projeto 3</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                  ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                  corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                  consequatur. Architecto, corporis repudiandae.
-                </p>
-  
-                <button class="btn-blue">
-                  <span>Visit</span>
-                </button>
-              </article>
-  
-              <article>
-                  <i class="fa fa-shopping-cart"></i>
-                  <h3>Projeto 4</h3>
-                  <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                    ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                    corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                    consequatur. Architecto, corporis repudiandae.
-                  </p>
-    
-                  <button class="btn-purple">
-                    <span>Visit</span>
-                  </button>
-                </article>
+              <button class="btn-purple">
+                <span>Visit</span>
+              </button>
+            </article>
 
-                <article>
-                    <i class="fab fa-google"></i>
-                    <h3>Projeto 5</h3>
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                      ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                      corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                      consequatur. Architecto, corporis repudiandae.
-                    </p>
-      
-                    <button class="btn-blue">
-                      <span>Visit</span>
-                    </button>
-                  </article>
-      
-                  <article>
-                      <i class="fab fa-youtube"></i>
-                      <h3>Projeto 6</h3>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                        ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                        corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                        consequatur. Architecto, corporis repudiandae.
-                      </p>
-        
-                      <button class="btn-purple">
-                        <span>Visit</span>
-                      </button>
-                    </article>
-      
-                    <article>
-                      <i class="fab fa-instagram"></i>
-                      <h3>Projeto 7</h3>
-                      <p>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                        ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                        corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                        consequatur. Architecto, corporis repudiandae.
-                      </p>
-        
-                      <button class="btn-blue">
-                        <span>Visit</span>
-                      </button>
-                    </article>
-        
-                    <article>
-                        <i class="fab fa-github"></i>
-                        <h3>Projeto 8</h3>
-                        <p>
-                          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
-                          ab natus tempore aliquam aperiam delectus dolore aut voluptates
-                          corrupti ipsam vitae sit cum, dignissimos esse quibusdam
-                          consequatur. Architecto, corporis repudiandae.
-                        </p>
-          
-                        <button class="btn-purple">
-                          <span>Visit</span>
-                        </button>
-                      </article>
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fa fa-laptop"></i>
+              <h3>Projeto 3</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-blue">
+                <span>Visit</span>
+              </button>
+            </article>
+
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fa fa-shopping-cart"></i>
+              <h3>Projeto 4</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-purple">
+                <span>Visit</span>
+              </button>
+            </article>
+
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fab fa-google"></i>
+              <h3>Projeto 5</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-blue">
+                <span>Visit</span>
+              </button>
+            </article>
+
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fab fa-youtube"></i>
+              <h3>Projeto 6</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-purple">
+                <span>Visit</span>
+              </button>
+            </article>
+
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fab fa-instagram"></i>
+              <h3>Projeto 7</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-blue">
+                <span>Visit</span>
+              </button>
+            </article>
+
+            <article class="wow animate__animated animate__slideInUp">
+              <i class="fab fa-github"></i>
+              <h3>Projeto 8</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero,
+                ab natus tempore aliquam aperiam delectus dolore aut voluptates
+                corrupti ipsam vitae sit cum, dignissimos esse quibusdam
+                consequatur. Architecto, corporis repudiandae.
+              </p>
+
+              <button class="btn-purple">
+                <span>Visit</span>
+              </button>
+            </article>
           </div>
         </div>
       </section>
+
+
+      <section class="mobile">
+          <div class="container">
+              <div class="mobile-grid">
+                  <section class="mobile-container">
+                      <img src=" img/smart2.png" class="side-img" alt="smartphone">
+                      <img src="img/smart2.png" class="  wow side-img mobile-container-img2" alt="smartphone">
+                      <img src=" img/smart2.png" class=" wow side-img mobile-container-img3 " alt="smartphone">
+                      <img src=" img/smart2.png" class=" wow side-img mobile-container-img4 " alt="smartphone">
+                  </section>
+
+                  <section class="grid-align-center" class="wow animate__animated animate__slideInRight">
+                      <h1>
+                          <span>Mobile</span> projects
+                      </h1>
+
+                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                          Iste sequi officiis cupiditate quos animi dignissimos adipisci sit! Architecto error suscipit corporis impedit
+                           aliquid minus cum quasi ea itaque, ut nesciunt.</p>
+
+
+                           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Iste sequi officiis cupiditate quos animi dignissimos </p>
+                  </section>
+
+              </div>
+          </div>
+      </section>
     </main>
+
+    <footer>
+        <div class="container">
+            <section class="footer-info class="wow animate__animated animate__slideInUp">
+                <div>
+                    <strong>Ronald Silva</strong> @ 2021
+                </div>
+               <div> All rights reserved.</div>
+              <a href="https://wa.me/5511963067045" target="_blank" class="" rel="noopener noreferrer">
+                <button class="green-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Send a message!</span>
+                </button>
+              </a>
+
+              <div class="footer-media">
+                <i class="fab fa-linkedin-in"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-github"></i>
+    
+            </div>
+
+            </section>
+        </div>
+    </footer>
+
+    <a href="#header">
+        <div class="goTop btn-blue">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+    </a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+    new WOW().init();
+    </script>
   </body>
 </html>
